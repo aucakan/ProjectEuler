@@ -1,5 +1,5 @@
 """
-Project Euler Problem 23
+Project Euler Problem 67
 """
 
 with open("0067_triangle.txt", "r") as t:
