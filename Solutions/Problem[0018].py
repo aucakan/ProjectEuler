@@ -19,7 +19,7 @@ triangle = """
 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
 """
 
-def paths(t):
+def paths(t): #Read the description
     tri = t.split("\n")[1:-1]
     lst = [[int(j) for j in i.split()] for i in tri]
     for i in range(1, len(lst.copy())):
